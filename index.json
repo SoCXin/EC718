@@ -1,0 +1,36 @@
+{
+    "type":"SoC",
+    "name":"EC718",
+    "title": "EC718",
+    "description":"Cortex-M3 Cat.1 SoC",
+    "version":"1.0.0",
+    "Core": {
+        "num": 2,
+        "type":"Cortex-M3",
+        "Freq": 306,
+        "DMIPS": 211,
+        "CoreMark": 60
+    },
+    "manufacturer": {
+        "vendor":"eigencomm",
+        "homepage": "http://www.eigencomm.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/EC718.git"
+    },
+    "series":["EC718","EC716"],
+    "package":["LFBGA"],
+    "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
+    "EMC": {
+        "EFT": 2000,
+        "CDM": 1000,
+        "HBM": 4000
+    },
+    "keywords": [
+        "Cortex-M3",
+        "eigencomm",
+        "DAC","ADC","CAN","I2C","RTC","SPI",
+        "4.2V","1.7V"
+    ]
+}
